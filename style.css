@@ -85,3 +85,44 @@ ul.nav {
 	padding-right: 15px;
 	border-bottom: 3px solid #4285f4;
 }
+
+#content {
+	position: relative;
+	margin: 145px 0 0 136px;
+	width: 600px;
+}
+
+p {
+	font-family: sans-serif;
+	margin: 0 0 4px 0;
+}
+
+.gray {
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #777;
+	font-size: 13px;
+}
+
+.blue {
+	font-size: 18px;
+	color: #1a0dab;
+}
+
+.green {
+	font-size: 13px;
+	color: #006621;
+}
+
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.feat {
+	border: 1px solid #f2f2f2;
+	box-shadow: 0 2px 5px -2px #757575;
+	padding: 10px 15px;
+}
