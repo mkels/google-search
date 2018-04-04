@@ -72,7 +72,7 @@ input[type=text] {
 
 ul.nav {
 	position: relative;
-	margin-left: 136px;
+	margin-left: 140px;
 	width: 630px;
 }
 
@@ -88,8 +88,8 @@ ul.nav {
 
 #content {
 	position: relative;
-	margin: 145px 0 0 136px;
-	width: 600px;
+	margin: 145px 0 0 144px;
+	width: 620px;
 }
 
 p {
@@ -115,10 +115,17 @@ p {
 	color: #006621;
 }
 
+.help-icon {
+	font-size: 12px;
+	color: #777;
+	float: right;
+}
+
 h1 {
 	font-size: 16px;
 	font-weight: bold;
 	font-family: sans-serif;
+	line-height: 1.2;
 }
 
 .feat {
