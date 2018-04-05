@@ -15,10 +15,7 @@ ul {
 }
 
 li {
-	-webkit-appearance: none;
-	display: inline;
-	float: left;
-	margin: 10px 8px 3px 8px;
+
 }
 
 .apps {
@@ -44,8 +41,18 @@ a {
 	padding: 6px 10px;
 }
 
-li.right {
+.right {
 	float: right;
+	-webkit-appearance: none;
+	display: inline;
+	margin: 10px 8px 3px 8px;
+}
+
+.left {
+	float: left;
+	-webkit-appearance: none;
+	display: inline;
+	margin: 10px 8px 3px 8px;
 }
 
 input[type=text] {
@@ -150,4 +157,22 @@ h1 {
 
 .related {
 	margin: 30px 15px;
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rel-l {
+	display: list-item;
+	line-height: 1.4;
+	color: #1a0dab;
+	width: 50%;
+}
+
+.rel-r {
+	float: left;
+	display: list-item;
+	line-height: 1.4;
+	color: #1a0dab;
+	width: 50%;
 }
