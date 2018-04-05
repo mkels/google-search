@@ -145,5 +145,9 @@ h1 {
 }
 
 .results {
-	padding: 10px 15px;
+	margin: 30px 0 15px 15px;
+}
+
+.related {
+	margin: 30px 15px;
 }
