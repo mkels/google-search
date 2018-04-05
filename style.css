@@ -94,7 +94,8 @@ ul.nav {
 
 p {
 	font-family: sans-serif;
-	margin: 0 0 4px 0;
+	margin: 0;
+	line-height: 1.2;
 }
 
 .gray {
@@ -113,12 +114,14 @@ p {
 .green {
 	font-size: 13px;
 	color: #006621;
+	line-height: 1.4;
 }
 
 .description{
 	font-size: 13px;
 	color: #545454;
 	margin-bottom: 26px;
+	line-height: 1.4;
 }
 
 .help-icon {
