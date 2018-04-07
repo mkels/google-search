@@ -152,7 +152,7 @@ h1 {
 }
 
 .related {
-	margin: 30px 15px;
+	margin-left: 15px;
 	position: relative;
 	display: block;
 	float: left;
@@ -174,4 +174,72 @@ h2 {
 	font-family: sans-serif;
 	font-size: 14px;
 	margin-left: -8px;
+}
+
+.pages {
+	padding: 0;
+	margin: 30px auto;
+	width: 620px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+.gb, .gr, .gy, .gg, .ga {
+	float: none;
+	display: inline;
+	font-size: 32px;
+	margin: 30px -2px;
+	padding: 0;
+}
+
+.gb, .ga {
+	color: #4885ed;
+}
+
+.gr {
+	color: #db3236;
+}
+
+.gy {
+	color: #f4c20d;
+}
+
+.gg {
+	color: #3cba54;
+}
+
+.ga {
+	font-size: 18px;
+	position: absolute;
+	top: -20px;
+	right: 160px;
+}
+
+.pag-num {
+	margin-left: -15px;
+}
+
+.act, .num {
+	font-size: 13px;
+	float: none;
+	display: inline-block;
+	color: black;
+	width: 14px;
+}
+
+.num, .next {
+	color: #4885ed;
+}
+
+.num:hover, .next:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.next {
+	position: absolute;
+	right: 150px;
+	font-size: 13px;
+	top: 40px;	
 }
